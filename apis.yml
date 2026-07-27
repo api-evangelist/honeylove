@@ -1,8 +1,16 @@
 aid: honeylove
 name: Honeylove
-description: Honeylove is a company surfaced as a portfolio company of lightspeed-venture-partners, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Honeylove Sculptwear Inc. is a Los Angeles-based, venture-backed direct-to-consumer
+  apparel brand founded in 2018 that designs and sells shapewear, bras, bodysuits,
+  leggings, and intimates engineered with targeted "smart compression" panels that
+  support the body without over-squeezing. Sold primarily through its Shopify-powered
+  online store at honeylove.com, the company has grown to millions of customers, was
+  named to the Inc. 5000 list of fastest-growing private companies, and is backed by
+  Lightspeed Venture Partners and Y Combinator. Honeylove operates as a consumer
+  e-commerce retailer and does not currently publish a public developer API program;
+  this profile captures its public web, policy, and support surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/honeylove/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +19,51 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.shopify.com/s/files/1/0965/6676/files/honeylove-logo-2024.png?v=1730733304
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Shapewear
+- Apparel
+- Ecommerce
+- Direct to Consumer
+- Retail
+- Intimates
+- Shopify
 apis: []
+common:
+- type: Website
+  url: https://www.honeylove.com
+- type: Support
+  url: https://help.honeylove.com/hc/en-us
+- type: Blog
+  url: https://www.honeylove.com/blogs/news
+- type: TermsOfService
+  url: https://www.honeylove.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.honeylove.com/policies/privacy-policy
+- type: DomainSecurity
+  url: security/honeylove-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
